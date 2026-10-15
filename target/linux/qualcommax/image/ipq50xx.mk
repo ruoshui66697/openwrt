@@ -22,6 +22,7 @@ define Device/cmcc_rax3000q
 	$(call Device/UbiFit)
 	DEVICE_VENDOR := CMCC
 	DEVICE_MODEL := RAX3000Q
+    DEVICE_DTS := ipq5018-rax3000q
 	DEVICE_DTS_CONFIG := config@mp03.3-m1
 	SOC := ipq5018
 	BLOCKSIZE := 128k
